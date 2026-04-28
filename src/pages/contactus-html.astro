@@ -108,7 +108,8 @@ import '../styles/site.css';
     <!-- Contact form -->
     <div>
       <h2 class="text-2xl font-800 text-[#4C3B00] mb-8">Send a Message</h2>
-      <form action="https://formspree.io/f/mwvaaojq" method="POST" class="space-y-5">
+      <form action="/api/contact" method="POST" class="space-y-5">
+            <input type="hidden" name="_site_id" value="P8675" /><input type="hidden" name="_business_name" value="Worldham Country Cattery" /><input type="hidden" name="_business_email" value="info@worldhamcountrycattery.co.uk" /><div style="position:absolute;left:-9999px" aria-hidden="true"><input type="text" name="_hp" tabindex="-1" autocomplete="off" /></div>
         <div>
           <label for="name" class="block text-sm font-semibold text-[#4C3B00] mb-1">Your name</label>
           <input
